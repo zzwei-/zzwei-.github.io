@@ -1,0 +1,562 @@
+
+ <!DOCTYPE HTML>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+    <title>ZhaoWei&#39;s Bloy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="ZhaoWei">
+    
+
+    
+    <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZhaoWei's Bloy">
+<meta property="og:url" content="https://github.com/zzwei-/zzwei-.github.io/index.html">
+<meta property="og:site_name" content="ZhaoWei's Bloy">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ZhaoWei's Bloy">
+<meta name="twitter:description">
+
+    
+    <link rel="alternative" href="/atom.xml" title="ZhaoWei&#39;s Bloy" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="ZhaoWei&#39;s Bloy" title="ZhaoWei&#39;s Bloy"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="ZhaoWei&#39;s Bloy">ZhaoWei&#39;s Bloy</a></h1>
+				<h2 class="blog-motto">博客，记录你的生活</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜單">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About me</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:github.com/zzwei-/zzwei-.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main">
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/04/07/markdown/" title="markdown语法学习" itemprop="url">markdown语法学习</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://github.com/zzwei-/zzwei-.github.io/about" title="ZhaoWei" target="_blank" itemprop="author">ZhaoWei</a>
+		
+  <p class="article-time">
+    <time datetime="2015-04-07T07:54:59.000Z" itemprop="datePublished"> 發表於 2015-04-07</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h1 id="Markdown语法学习">Markdown语法学习</h1><h2 id="标题设置">标题设置</h2><pre><code><span class="string">"#一级标题"</span>
+<span class="string">"##二级标题"</span>
+</code></pre><h2 id="块注释">块注释</h2><blockquote>
+<p>这是一行块注释</p>
+</blockquote>
+<pre><code><span class="string">"&gt;这一行是块注释"</span>
+</code></pre><h2 id="斜体和粗体">斜体和粗体</h2><p><em>斜体字</em><br><strong>粗体字</strong>    </p>
+<pre><code><span class="string">"*斜体字*"</span>
+<span class="string">"**粗体字**"</span>
+</code></pre><h2 id="无序列表">无序列表</h2><ul>
+<li>使用*开头构成无序列表</li>
+</ul>
+<ul>
+<li><p>或者使用-开头构成无序列表</p>
+<pre><code>使用<span class="keyword">*</span>开头构成无序列表
+或者使用-开头构成无序列表
+</code></pre></li>
+</ul>
+<h2 id="有序列表">有序列表</h2><ol>
+<li>第一行有序列表</li>
+<li><p>第二行有序列表</p>
+<pre><code>3.第一行有序列表
+2.第二行有序列表
+</code></pre></li>
+</ol>
+<h2 id="links">links</h2><p>Markdown中有两种方式实现链接，分别是内联方式和引用方式。<br>内联方式：这是一个例子<a href="http://baidu.com" target="_blank" rel="external">百度</a><br>引用方式：<a href="http://baidu.com" target="_blank" rel="external">百度</a>和<a href="http://google.com" target="_blank" rel="external">谷歌</a></p>
+<pre><code><span class="header">##links</span>
+Markdown中有两种方式实现链接，分别是内联方式和引用方式。
+内联方式：这是一个例子[<span class="link_label">百度</span>](<span class="link_url">http://baidu.com</span>)
+引用方式：[<span class="link_label">百度</span>][<span class="link_reference">1</span>]和[<span class="link_label">谷歌</span>][<span class="link_reference">2</span>]
+[<span class="link_reference">1</span>]:<span class="link_url">http://baidu.com</span>
+[<span class="link_reference">2</span>]:<span class="link_url">http://google.com</span>
+</code></pre><h2 id="图片">图片</h2><p><img src="/figures/z.jpg" alt="图片描述" title="optional title"></p>
+<pre><code><span class="header">##图片</span>
+![<span class="link_label">图片描述</span>](<span class="link_url">/figures/name.jpg "optional title"</span>)
+</code></pre><h2 id="代码">代码</h2><pre><code>    <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{
+      <span class="built_in">printf</span>(<span class="string">"Hello world!\n"</span>);
+      <span class="keyword">return</span> <span class="number">0</span>;
+    }
+开头一个tab或四个空格表示代码
+</code></pre>
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/玩玩/">玩玩</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Markdown/">Markdown</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/04/03/fannao/" title="烦恼" itemprop="url">烦恼</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://github.com/zzwei-/zzwei-.github.io/about" title="ZhaoWei" target="_blank" itemprop="author">ZhaoWei</a>
+		
+  <p class="article-time">
+    <time datetime="2015-04-03T03:34:53.000Z" itemprop="datePublished"> 發表於 2015-04-03</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>说是寂寞的秋的忧郁，<br>说是辽远的海的怀念，<br>假如有人问我烦恼的缘故，<br>我不敢说出你的名字。</p>
+<p>我不敢说出你的名字。<br>假如有人问我烦恼的缘故，<br>说是辽远的海的怀念，<br>说是寂寞的秋的忧郁。</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/生活如诗/">生活如诗</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/戴望舒/">戴望舒</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/04/02/yulinling/" title="雨霖铃" itemprop="url">雨霖铃</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://github.com/zzwei-/zzwei-.github.io/about" title="ZhaoWei" target="_blank" itemprop="author">ZhaoWei</a>
+		
+  <p class="article-time">
+    <time datetime="2015-04-02T03:34:53.000Z" itemprop="datePublished"> 發表於 2015-04-02</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>寒蝉凄切。对长亭晚，骤雨初歇。<br>都门怅饮无绪，方留恋处，兰州催发。<br>执手相看泪眼，竟无语凝噎。<br>念去去，千里烟波，暮霭沉沉楚天阔。</p>
+<p>多情自古伤别离，更那堪、冷落清秋节！<br>今宵酒醒何处？杨柳岸，晓风残月。<br>此去经年，应是良辰好景虚设。<br>便纵有、千种风情，更与何人说。</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/生活如诗/">生活如诗</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/柳永/">柳永</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/04/01/zhuzhici/" title="竹枝词" itemprop="url">竹枝词</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://github.com/zzwei-/zzwei-.github.io/about" title="ZhaoWei" target="_blank" itemprop="author">ZhaoWei</a>
+		
+  <p class="article-time">
+    <time datetime="2015-04-01T03:59:27.000Z" itemprop="datePublished"> 發表於 2015-04-01</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>杨柳青青江水平，闻郎江上起歌声。<br>东边日出西边雨，道是无晴却有晴。</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/生活如诗/">生活如诗</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/刘禹锡/">刘禹锡</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+
+</div>
+      <div class="openaside"><a class="navbutton" href="#" title="顯示側邊欄"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隱藏側邊欄"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分類</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/玩玩/" title="玩玩">玩玩<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/生活如诗/" title="生活如诗">生活如诗<sup>3</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">標簽</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/戴望舒/" title="戴望舒">戴望舒<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/刘禹锡/" title="刘禹锡">刘禹锡<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/柳永/" title="柳永">柳永<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情鏈接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://www.fatalfault.com/" target="_blank" title="Riemann.Gan&#39;s blog">Riemann.Gan&#39;s blog</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="https://www-roway.rhcloud.com/" target="_blank" title="Roway&#39;s blog">Roway&#39;s blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 訂閱</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello ,I&#39;m Larry Page in Google. <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="https://github.com/zzwei-/zzwei-.github.io/about" target="_blank" title="ZhaoWei">ZhaoWei</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回頂部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+ </html>
